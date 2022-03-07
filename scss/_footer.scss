@@ -1,0 +1,19 @@
+footer {
+	grid-area: footer;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;                              
+	align-items: center;  
+	background-color: $colorPrimario;                           
+    color: $colorSecundario;
+}
+.animfoo:hover {                                         
+	background-color: $colorFoo;
+	transition: .8s;
+}
+li {
+	border-radius: 5px;                              
+	list-style: none;                                
+    margin: 1rem;                                  
+    padding: 0.5rem;                               
+}
